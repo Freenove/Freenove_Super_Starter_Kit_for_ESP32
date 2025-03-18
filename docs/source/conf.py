@@ -12,8 +12,8 @@ import sys
 
 sys.path.insert(0, pathlib.Path(__file__).parents[2].resolve().as_posix())
 
-# os.system("rm -r freenove_Kit")
-# os.system("git clone --depth 1 https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32 freenove_Kit")
+os.system("rm -r freenove_Kit")
+os.system("git clone --depth 1 https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_ESP32 freenove_Kit")
 
 # # 删除文件夹
 # os.system("rm -r _static")
