@@ -144,14 +144,14 @@ If the LCD1602 you received is the following one, and you cannot see anything on
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.1_Display_the_string_on_LCD1602/Sketch_20.1_Display_the_string_on_LCD1602.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Display_the_string_on_LCD1602/Sketch_18.1_Display_the_string_on_LCD1602.ino
     :linenos: 
     :language: c
     :dedent:
 
 Include header file of Liquid Crystal Display (LCD)1602 and I2C.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.1_Display_the_string_on_LCD1602/Sketch_20.1_Display_the_string_on_LCD1602.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Display_the_string_on_LCD1602/Sketch_18.1_Display_the_string_on_LCD1602.ino
     :linenos: 
     :language: c
     :lines: 7-8
@@ -159,7 +159,7 @@ Include header file of Liquid Crystal Display (LCD)1602 and I2C.
 
 Instantiate the I2C LCD1602 screen. It should be noted here that if your LCD driver chip uses PCF8574T, set the I2C address to 0x27, and if uses PCF8574AT, set the I2C address to 0x3F.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.1_Display_the_string_on_LCD1602/Sketch_20.1_Display_the_string_on_LCD1602.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Display_the_string_on_LCD1602/Sketch_18.1_Display_the_string_on_LCD1602.ino
     :linenos: 
     :language: c
     :lines: 17-17
@@ -167,7 +167,7 @@ Instantiate the I2C LCD1602 screen. It should be noted here that if your LCD dri
 
 Initialize I2C and set its pins as 13,14. And then initialize LCD1602 and turn on the backlight of LCD.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.1_Display_the_string_on_LCD1602/Sketch_20.1_Display_the_string_on_LCD1602.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Display_the_string_on_LCD1602/Sketch_18.1_Display_the_string_on_LCD1602.ino
     :linenos: 
     :language: c
     :lines: 19-24
@@ -175,7 +175,7 @@ Initialize I2C and set its pins as 13,14. And then initialize LCD1602 and turn o
 
 Move the cursor to the first row, first column, and then display the character.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.1_Display_the_string_on_LCD1602/Sketch_20.1_Display_the_string_on_LCD1602.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Display_the_string_on_LCD1602/Sketch_18.1_Display_the_string_on_LCD1602.ino
     :linenos: 
     :language: c
     :lines: 25-26
@@ -183,7 +183,7 @@ Move the cursor to the first row, first column, and then display the character.
 
 Print the number on the second line of LCD1602.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.1_Display_the_string_on_LCD1602/Sketch_20.1_Display_the_string_on_LCD1602.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Display_the_string_on_LCD1602/Sketch_18.1_Display_the_string_on_LCD1602.ino
     :linenos: 
     :language: c
     :lines: 29-34
@@ -191,7 +191,7 @@ Print the number on the second line of LCD1602.
 
 Check whether the I2C address exists.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.1_Display_the_string_on_LCD1602/Sketch_20.1_Display_the_string_on_LCD1602.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Display_the_string_on_LCD1602/Sketch_18.1_Display_the_string_on_LCD1602.ino
     :linenos: 
     :language: c
     :lines: 36-42

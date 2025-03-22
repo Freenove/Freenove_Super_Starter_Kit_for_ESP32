@@ -65,7 +65,7 @@ Sketch_Bluetooth_Control_LED
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_29.png
     :align: center
 
-Compile and upload code to ESP32. The operation of the APP is the same as 27.1, you only need to change the sending content to "led_on" and "led_off" to operate LEDs on the ESP32-WROVER.
+Compile and upload code to ESP32. The operation of the APP is the same as 20.1, you only need to change the sending content to "led_on" and "led_off" to operate LEDs on the ESP32-WROVER.
 
 Data sent from mobile APP:
 
@@ -86,14 +86,14 @@ Attention: If the sending content isn't "led-on' or "led-off", then the state of
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.3_BluetoothToLed/Sketch_20.3_BluetoothToLed.ino
     :linenos: 
     :language: c
     :dedent:
 
 Use character string to handle function header file.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.3_BluetoothToLed/Sketch_20.3_BluetoothToLed.ino
     :linenos: 
     :language: c
     :lines: 10-10
@@ -101,7 +101,7 @@ Use character string to handle function header file.
 
 Define a buffer to receive data from Bluetooth, and use "count" to record the bytes of data received.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.3_BluetoothToLed/Sketch_20.3_BluetoothToLed.ino
     :linenos: 
     :language: c
     :lines: 13-14
@@ -109,7 +109,7 @@ Define a buffer to receive data from Bluetooth, and use "count" to record the by
 
 Initialize the classic Bluetooth and name it as "ESP32test"
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.3_BluetoothToLed/Sketch_20.3_BluetoothToLed.ino
     :linenos: 
     :language: c
     :lines: 17-17
@@ -117,7 +117,7 @@ Initialize the classic Bluetooth and name it as "ESP32test"
 
 When receive data, read the Bluetooth data and store it into buffer array.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.3_BluetoothToLed/Sketch_20.3_BluetoothToLed.ino
     :linenos: 
     :language: c
     :lines: 23-27
@@ -125,7 +125,7 @@ When receive data, read the Bluetooth data and store it into buffer array.
 
 Compare the content in buffer array with "led_on" and "led_off" to see whether they are the same. If yes, execute the corresponding operation. 
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.3_BluetoothToLed/Sketch_20.3_BluetoothToLed.ino
     :linenos: 
     :language: c
     :lines: 30-35
@@ -133,7 +133,7 @@ Compare the content in buffer array with "led_on" and "led_off" to see whether t
 
 After comparing the content of array, to ensure successful transmission next time, please empty the array and set the count to zero.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_27.3_BluetoothToLed/Sketch_27.3_BluetoothToLed.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_20.3_BluetoothToLed/Sketch_20.3_BluetoothToLed.ino
     :linenos: 
     :language: c
     :lines: 36-37

@@ -148,7 +148,7 @@ Download the code to ESP32-WROVER. When the DC motor is connected to a power sup
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Control_Motor_by_Relay/Sketch_17.1_Control_Motor_by_Relay.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Control_Motor_by_Relay/Sketch_16.1_Control_Motor_by_Relay.ino
     :linenos: 
     :language: c
     :dedent:
@@ -157,7 +157,7 @@ In Chapter 2, the pressing and releasing of the button will result in mechanical
 
 To eliminate the vibrating, we record the electrical level of the button with nowButtonState, and the time point for the last change of pin level with lastChangeTime If the state of the button changes, it will record the time point of the change.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Control_Motor_by_Relay/Sketch_17.1_Control_Motor_by_Relay.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Control_Motor_by_Relay/Sketch_16.1_Control_Motor_by_Relay.ino
     :linenos: 
     :language: c
     :lines: 21-25
@@ -165,7 +165,7 @@ To eliminate the vibrating, we record the electrical level of the button with no
 
 If the state of the pin changes and keeps stable for a period of time, it can be considered as a valid key state change, update the key state variable buttonState, and determine whether the key is pressed or released according to the current state.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Control_Motor_by_Relay/Sketch_17.1_Control_Motor_by_Relay.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_Control_Motor_by_Relay/Sketch_16.1_Control_Motor_by_Relay.ino
     :linenos: 
     :language: c
     :lines: 26-36

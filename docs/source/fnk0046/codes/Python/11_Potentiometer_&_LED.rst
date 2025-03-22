@@ -57,7 +57,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click  "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "11.1_Soft_LED" and double click "Soft_LED.py". 
+Open "Thonny", click  "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "10.1_Soft_LED" and double click "Soft_LED.py". 
 
 Soft_LED
 -----------------------------------------
@@ -69,7 +69,7 @@ Click "Run current script". Rotate the handle of potentiometer and the brightnes
 
 The following is the code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/11.1_Soft_LED/Soft_LED.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/10.1_Soft_LED/Soft_LED.py
     :language: python
     :dedent:
 

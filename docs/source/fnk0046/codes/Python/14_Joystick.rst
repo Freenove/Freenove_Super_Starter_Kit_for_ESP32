@@ -77,7 +77,7 @@ In this project's code, we will read the ADC values of X and Y axes of the Joyst
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "14.1_Joystick" and double click "Joystick.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "13.1_Joystick" and double click "Joystick.py". 
 
 Joystick
 --------------------------------------
@@ -92,20 +92,20 @@ Click "Run current script". Shifting the Joystick or pressing it down will make 
 
 The flowing is the code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_Joystick/Joystick.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/13.1_Joystick/Joystick.py
     :language: python
     :dedent:
 
 Set the acquisition range of voltage of the two ADC channels to 0-3.3V, and the acquisition width of data to 0-4095.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_Joystick/Joystick.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/13.1_Joystick/Joystick.py
     :language: python
     :lines: 8-11
     :dedent:
 
 In the code, configure Z_Pin to pull-up input mode. In loop(), use Read () to read the value of axes X and Y and use value() to read the value of axis Z, and then display them.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_Joystick/Joystick.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/13.1_Joystick/Joystick.py
     :language: python
     :lines: 14-14
     :dedent:

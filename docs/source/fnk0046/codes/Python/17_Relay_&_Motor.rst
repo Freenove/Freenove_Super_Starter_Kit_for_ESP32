@@ -137,7 +137,7 @@ Use buttons to control the relays and motors.
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "17.1_Relay_And_Motor" and double click "Relay_And_Motor.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "16.1_Relay_And_Motor" and double click "Relay_And_Motor.py". 
 
 Relay_And_Motor
 -----------------------------------
@@ -152,7 +152,7 @@ Click "Run current script". When the DC Motor is connected to a power supply, it
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/17.1_Relay_And_Motor/Relay_And_Motor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_Relay_And_Motor/Relay_And_Motor.py
     :language: python
     :dedent:
 

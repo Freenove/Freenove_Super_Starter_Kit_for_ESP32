@@ -95,7 +95,7 @@ If you haven't installed it yet, please do so before learning. The steps to add 
 
 Use the ESP32Servo library to control the servo motor and let the servo motor rotate back and forth.
 
-Sketch_18.1_Servo_Sweep
+Sketch_17.1_Servo_Sweep
 -----------------------------------
 
 .. image:: ../_static/imgs/18_Servo/Chapter18_05.png
@@ -108,14 +108,14 @@ Compile and upload the code to ESP32-WROVER, the servo will rotate from 0 degree
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Servo_Sweep/Sketch_17.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :dedent:
 
 Servo uses the ESP32Servo library, like the following reference to ESP32Servo library:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Servo_Sweep/Sketch_17.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 7-7
@@ -123,7 +123,7 @@ Servo uses the ESP32Servo library, like the following reference to ESP32Servo li
 
 ESP32Servo library provides the ESP32Servo class that controls it. ESP32Servo class must be instantiated before using:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Servo_Sweep/Sketch_17.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 9-9
@@ -131,7 +131,7 @@ ESP32Servo library provides the ESP32Servo class that controls it. ESP32Servo cl
 
 Set the control servo motor pin, the time range of high level.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Servo_Sweep/Sketch_17.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 16-16
@@ -139,7 +139,7 @@ Set the control servo motor pin, the time range of high level.
 
 After initializing the servo, you can control the servo to rotate to a specific angle:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Servo_Sweep/Sketch_17.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 26-26
@@ -237,14 +237,14 @@ Compile and upload the code to ESP32-WROVER, the servo will rotate from 0 degree
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Servo_Sweep/Sketch_17.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :dedent:
 
 Servo uses the ESP32Servo library, like the following reference to ESP32Servo library:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Servo_Sweep/Sketch_17.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 7-7
@@ -252,7 +252,7 @@ Servo uses the ESP32Servo library, like the following reference to ESP32Servo li
 
 ESP32Servo library provides the ESP32Servo class that controls it. ESP32Servo class must be instantiated before using:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Servo_Sweep/Sketch_17.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 9-9
@@ -260,7 +260,7 @@ ESP32Servo library provides the ESP32Servo class that controls it. ESP32Servo cl
 
 Set the control servo motor pin, the time range of high level.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Servo_Sweep/Sketch_17.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 16-16
@@ -268,7 +268,7 @@ Set the control servo motor pin, the time range of high level.
 
 After initializing the servo, you can control the servo to rotate to a specific angle:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_18.1_Servo_Sweep/Sketch_18.1_Servo_Sweep.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_17.1_Servo_Sweep/Sketch_17.1_Servo_Sweep.ino
     :linenos: 
     :language: c
     :lines: 21-21

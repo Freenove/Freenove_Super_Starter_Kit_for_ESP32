@@ -126,14 +126,14 @@ Verify and upload the code, and you'll see a 1-bit, 7-segment display displaying
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_1_Digit_7-Segment_Display/Sketch_16.1_1_Digit_7-Segment_Display.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_15.1_1_Digit_7-Segment_Display/Sketch_15.1_1_Digit_7-Segment_Display.ino
     :linenos: 
     :language: c
     :dedent:
 
 First, put encoding of "0"- "F" into the array.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_1_Digit_7-Segment_Display/Sketch_16.1_1_Digit_7-Segment_Display.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_15.1_1_Digit_7-Segment_Display/Sketch_15.1_1_Digit_7-Segment_Display.ino
     :linenos: 
     :language: c
     :lines: 12-15
@@ -141,7 +141,7 @@ First, put encoding of "0"- "F" into the array.
 
 Then, in the loop, we transfer the member of the "num" to 74HC595 by calling the writeData function, so that the digital tube displays what we want. After each display, "0xff" is used to eliminate the previous effect and prepare for the next display.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_1_Digit_7-Segment_Display/Sketch_16.1_1_Digit_7-Segment_Display.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_15.1_1_Digit_7-Segment_Display/Sketch_15.1_1_Digit_7-Segment_Display.ino
     :linenos: 
     :language: c
     :lines: 24-31
@@ -149,7 +149,7 @@ Then, in the loop, we transfer the member of the "num" to 74HC595 by calling the
 
 In the shiftOut() function, whether to use LSBFIRST or MSBFIRST as the parameter depends on the physical situation.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_1_Digit_7-Segment_Display/Sketch_16.1_1_Digit_7-Segment_Display.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_15.1_1_Digit_7-Segment_Display/Sketch_15.1_1_Digit_7-Segment_Display.ino
     :linenos: 
     :language: c
     :lines: 33-40
@@ -157,7 +157,7 @@ In the shiftOut() function, whether to use LSBFIRST or MSBFIRST as the parameter
 
 If you want to display the decimal point, make the highest bit of each array become 0, which can be implemented easily by num[i]&0x7f.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_1_Digit_7-Segment_Display/Sketch_16.1_1_Digit_7-Segment_Display.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_15.1_1_Digit_7-Segment_Display/Sketch_15.1_1_Digit_7-Segment_Display.ino
     :linenos: 
     :language: c
     :lines: 37-37

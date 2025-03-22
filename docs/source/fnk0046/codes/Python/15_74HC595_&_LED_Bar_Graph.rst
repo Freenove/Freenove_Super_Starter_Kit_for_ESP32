@@ -104,7 +104,7 @@ In this project, we will make a flowing water light with a 74HC595 chip to learn
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "15.1_Flowing_Water_Light". Select "my74HC595.py", right click your mouse to select "Upload to /", wait for "my74HC595.py"to be uploaded to ESP32-WROVER and then double click "Flowing_Water_Light.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "14.1_Flowing_Water_Light". Select "my74HC595.py", right click your mouse to select "Upload to /", wait for "my74HC595.py"to be uploaded to ESP32-WROVER and then double click "Flowing_Water_Light.py". 
 
 Flowing_Water_Light
 -------------------------------------------
@@ -118,27 +118,27 @@ Click"Run current script" and you will see that Bar Graph LED starts with the fl
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_Flowing_Water_Light/Flowing_Water_Light.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_Flowing_Water_Light/Flowing_Water_Light.py
     :language: python
     :dedent:
 
 Import time and my74HC595 modules.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_Flowing_Water_Light/Flowing_Water_Light.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_Flowing_Water_Light/Flowing_Water_Light.py
     :language: python
     :lines: 1-2
     :dedent:
 
 Assign pins for ESP32-WROVER to connect to 74HC595.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_Flowing_Water_Light/Flowing_Water_Light.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_Flowing_Water_Light/Flowing_Water_Light.py
     :language: python
     :lines: 4-4
     :dedent:
 
 The first for loop makes LED Bar display separately from left to right while the second for loop make it display separately from right to left.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_Flowing_Water_Light/Flowing_Water_Light.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/14.1_Flowing_Water_Light/Flowing_Water_Light.py
     :language: python
     :lines: 11-20
     :dedent:

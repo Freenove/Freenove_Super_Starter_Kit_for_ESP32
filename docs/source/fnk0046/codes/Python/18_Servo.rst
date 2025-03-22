@@ -87,7 +87,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "18.1_Servo_Sweep". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP32-WROVER and then double click "Servo_Sweep.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "17.1_Servo_Sweep". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP32-WROVER and then double click "Servo_Sweep.py". 
 
 Servo_Sweep
 ---------------------------------------
@@ -102,34 +102,34 @@ Click "Run current script", the Servo will rotate from 0 degrees to 180 degrees 
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/17.1_Servo_Sweep/Servo_Sweep.py
     :language: python
     :dedent:
 
 Import myservo module.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/17.1_Servo_Sweep/Servo_Sweep.py
     :language: python
     :lines: 1-1
     :dedent:
 
 Initialize pins of the servo and set the starting point of the servo to 0 degree.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/17.1_Servo_Sweep/Servo_Sweep.py
     :language: python
     :lines: 4-6
     :dedent:
 
 Control the servo to rotate to a specified angle within the range of 0-180 degrees.  
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/17.1_Servo_Sweep/Servo_Sweep.py
     :language: python
     :lines: 11-11
     :dedent:
 
 Use two for loops. The first one controls the servo to rotate from 0 degree to 180 degrees while the other controls it to rotate back from 180 degrees to 0 degree.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.1_Servo_Sweep/Servo_Sweep.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/17.1_Servo_Sweep/Servo_Sweep.py
     :language: python
     :lines: 10-15
     :dedent:
@@ -203,9 +203,9 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "18.2_Servo_Knop". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP32-WROVER and then double click "Servo_Knop.py". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "17.2_Servo_Knop". Select "myservo.py", right click your mouse to select "Upload to /", wait for "myservo.py" to be uploaded to ESP32-WROVER and then double click "Servo_Knop.py". 
  
-18.2_Servo_Knop
+17.2_Servo_Knop
 -------------------------------------
 
 .. image:: ../_static/imgs/18_Servo/Chapter18_14.png
@@ -218,7 +218,7 @@ Click "Run current script", twist the potentiometer back and forth, and the serv
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/18.2_Servo_Knop/Servo_Knop.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/17.2_Servo_Knop/Servo_Knop.py
     :language: python
     :dedent:
 

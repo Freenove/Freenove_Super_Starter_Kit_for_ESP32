@@ -65,7 +65,7 @@ Download the code to ESP32-WROVER, by turning the adjustable resistor to change 
 
 The following is the code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_11.1_SoftLight/Sketch_11.1_SoftLight.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_10.1_SoftLight/Sketch_10.1_SoftLight.ino
     :linenos: 
     :language: c
     :dedent:

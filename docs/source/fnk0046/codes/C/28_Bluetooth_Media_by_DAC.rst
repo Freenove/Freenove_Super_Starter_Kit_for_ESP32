@@ -114,14 +114,14 @@ Please use your mobile phone to search and connect a Bluetooth device named "ESP
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_28.1_BluetoothByDAC/Sketch_28.1_BluetoothByDAC.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_BluetoothByDAC/Sketch_21.1_BluetoothByDAC.ino
     :linenos: 
     :language: c
     :dedent:
 
 Add program files related to Bluetooth and API interface files.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_28.1_BluetoothByDAC/Sketch_28.1_BluetoothByDAC.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_BluetoothByDAC/Sketch_21.1_BluetoothByDAC.ino
     :linenos: 
     :language: c
     :lines: 10-22
@@ -129,7 +129,7 @@ Add program files related to Bluetooth and API interface files.
 
 Set the Bluetooth in slave mode through macro definition and use it to receive data from other devices.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_28.1_BluetoothByDAC/Sketch_28.1_BluetoothByDAC.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_BluetoothByDAC/Sketch_21.1_BluetoothByDAC.ino
     :linenos: 
     :language: c
     :lines: 24-26
@@ -137,7 +137,7 @@ Set the Bluetooth in slave mode through macro definition and use it to receive d
 
 Initialize the serial port and set the baud rate to 115200; initialize Bluetooth and name it as "ESP32".
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_28.1_BluetoothByDAC/Sketch_28.1_BluetoothByDAC.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_BluetoothByDAC/Sketch_21.1_BluetoothByDAC.ino
     :linenos: 
     :language: c
     :lines: 45-47
@@ -145,7 +145,7 @@ Initialize the serial port and set the baud rate to 115200; initialize Bluetooth
 
 Define an I2S interface variable and initialize it.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_28.1_BluetoothByDAC/Sketch_28.1_BluetoothByDAC.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_BluetoothByDAC/Sketch_21.1_BluetoothByDAC.ino
     :linenos: 
     :language: c
     :lines: 54-66
@@ -153,7 +153,7 @@ Define an I2S interface variable and initialize it.
 
 Initialize the Bluetooth hardware device, establish a Bluetooth thread task, and print out messages to prompt the user to take the next step.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_28.1_BluetoothByDAC/Sketch_28.1_BluetoothByDAC.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_BluetoothByDAC/Sketch_21.1_BluetoothByDAC.ino
     :linenos: 
     :language: c
     :lines: 68-72
@@ -161,7 +161,7 @@ Initialize the Bluetooth hardware device, establish a Bluetooth thread task, and
 
 Bluetooth thread task: Set Bluetooth to slave mode; initialize Bluetooth command resolution function; set Bluetooth to be visible to other devices and in waiting for connection mode.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_28.1_BluetoothByDAC/Sketch_28.1_BluetoothByDAC.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_21.1_BluetoothByDAC/Sketch_21.1_BluetoothByDAC.ino
     :linenos: 
     :language: c
     :lines: 30-42

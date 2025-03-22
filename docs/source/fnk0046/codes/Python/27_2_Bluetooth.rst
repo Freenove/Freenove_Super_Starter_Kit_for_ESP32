@@ -61,7 +61,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "27.2_ BLE_LED". Select "ble_advertising.py", right click your mouse to select "Upload to /", wait for "ble_advertising.py" to be uploaded to ESP32-WROVER and then double click "BLE_LED.py".
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "20.2_ BLE_LED". Select "ble_advertising.py", right click your mouse to select "Upload to /", wait for "ble_advertising.py" to be uploaded to ESP32-WROVER and then double click "BLE_LED.py".
 
 BLE_LED
 -----------------------------------
@@ -69,7 +69,7 @@ BLE_LED
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_44.png
     :align: center
 
-Compile and upload code to ESP32. The operation of the APP is the same as 27.1, you only need to change the sending content to "led_on" and "led_off" to operate LEDs on the ESP32-WROVER.
+Compile and upload code to ESP32. The operation of the APP is the same as 20.1, you only need to change the sending content to "led_on" and "led_off" to operate LEDs on the ESP32-WROVER.
 
 Data sent from mobile APP:
 
@@ -90,13 +90,13 @@ Attention: If the sending content isn't "led_on' or "led_off", then the state of
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/27.2_BLE_LED/BLE_LED.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/20.2_BLE_LED/BLE_LED.py
     :language: python
     :dedent:
 
 Compare received message with "led_on" and "led_off" and take action accordingly.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/27.2_BLE_LED/BLE_LED.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/20.2_BLE_LED/BLE_LED.py
     :language: python
     :lines: 88-91
     :dedent:

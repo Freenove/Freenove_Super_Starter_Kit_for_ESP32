@@ -114,7 +114,7 @@ Download the code to ESP32-WROVER. You will see that LED bar graph starts with t
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_15.1_FlowingLight02/Sketch_15.1_FlowingLight02.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_14.1_FlowingLight02/Sketch_14.1_FlowingLight02.ino
     :linenos: 
     :language: c
     :dedent:
@@ -127,7 +127,7 @@ In the code, we configure three pins to control the 74HC595 chip and define a on
 
 In the loop(), use "for" loop to send x to 74HC595 output pin to control the LED. In "for" loop, x will shift one bit to the LEFT in one cycle, then when data of x is sent to 74HC595, the LED that is turned ON will move one bit to the LEFT once.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_15.1_FlowingLight02/Sketch_15.1_FlowingLight02.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_14.1_FlowingLight02/Sketch_14.1_FlowingLight02.ino
     :linenos: 
     :language: c
     :lines: 30-34

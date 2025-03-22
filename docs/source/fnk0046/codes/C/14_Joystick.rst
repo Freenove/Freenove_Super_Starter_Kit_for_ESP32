@@ -85,14 +85,14 @@ Download the code to ESP32-WROVER, open the serial port monitor, the baud rate i
 
 The following is the code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_14.1_Joystick/Sketch_14.1_Joystick.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.1_Joystick/Sketch_13.1_Joystick.ino
     :linenos: 
     :language: c
     :dedent:
 
 In the code, configure xyzPins[2] to pull-up input mode.  In loop(), use analogRead () to read the value of axes X and Y and use digitalRead () to read the value of axis Z, then display them.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_14.1_Joystick/Sketch_14.1_Joystick.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.1_Joystick/Sketch_13.1_Joystick.ino
     :linenos: 
     :language: c
     :lines: 14-18

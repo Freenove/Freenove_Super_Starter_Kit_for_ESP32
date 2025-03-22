@@ -115,7 +115,7 @@ In this section, the 74HC595 is used in the same way as in the previous section,
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP32/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "16.1_74HC595_and_7_segment_display". 
+Open "Thonny", click "This computer"  ->  "D:"  ->  "Micropython_Codes"  ->  "15.1_74HC595_and_7_segment_display". 
 
 Select "my74HC595.py", right click your mouse to select "Upload to /", wait for "my74HC595.py" to be uploaded to ESP32-WROVER and then double click"74HC595_and_7_segment_display.py". 
 
@@ -132,34 +132,34 @@ Click "Run current script", and you'll see a 1-bit, 7-segment display displaying
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
     :language: python
     :dedent:
 
 Import time and my74HC595 modules.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
     :language: python
     :lines: 1-2
     :dedent:
 
 Put the encoding "0" - "F" into the list.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
     :language: python
     :lines: 4-5
     :dedent:
 
 Define an object, whose pins applys default configuration, to drive 74HC595. 
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
     :language: python
     :lines: 9-9
     :dedent:
 
 Send data of digital tube to 74HC595 chip.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/16.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
     :language: python
     :lines: 11-11
     :dedent:

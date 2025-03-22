@@ -89,12 +89,12 @@ Then click "Open".
 .. image:: ../_static/imgs/31_Play_SD_card_music/Chapter31_04.png
     :align: center
 
-Sketch_31.1_PlayMP3FromSD
+Sketch_23.1_PlayMP3FromSD
 -------------------------------------
 
 We placed a folder called "music" in:
 
-Freenove_Ultimate_Starter_Kit_for_ESP32\Sketches\Sketch_31.1_PlayMP3FromSD
+Freenove_Ultimate_Starter_Kit_for_ESP32\Sketches\Sketch_23.1_PlayMP3FromSD
 
 User needs to copy this folder to SD card.
 
@@ -113,7 +113,7 @@ Compile and upload the code to the ESP32 WROVER and open the serial monitor. ESP
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_31.1_PlayMP3FromSD/Sketch_31.1_PlayMP3FromSD.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_PlayMP3FromSD/Sketch_23.1_PlayMP3FromSD.ino
     :linenos: 
     :language: c
     :dedent:
@@ -122,7 +122,7 @@ Add music decoding header files and SD card drive files.
 
 If you want to use the circuit in 31.2, you just need to modify #define IIS_ENABLE 1.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_31.1_PlayMP3FromSD/Sketch_31.1_PlayMP3FromSD.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_PlayMP3FromSD/Sketch_23.1_PlayMP3FromSD.ino
     :linenos: 
     :language: c
     :lines: 1-14
@@ -130,7 +130,7 @@ If you want to use the circuit in 31.2, you just need to modify #define IIS_ENAB
 
 Define the drive pins for SD card. Note that the SD card driver pins cannot be modified.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_31.1_PlayMP3FromSD/Sketch_31.1_PlayMP3FromSD.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_PlayMP3FromSD/Sketch_23.1_PlayMP3FromSD.ino
     :linenos: 
     :language: c
     :lines: 16-21
@@ -138,7 +138,7 @@ Define the drive pins for SD card. Note that the SD card driver pins cannot be m
 
 Apply for audio decoding class object.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_31.1_PlayMP3FromSD/Sketch_31.1_PlayMP3FromSD.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_PlayMP3FromSD/Sketch_23.1_PlayMP3FromSD.ino
     :linenos: 
     :language: c
     :lines: 23-31
@@ -146,7 +146,7 @@ Apply for audio decoding class object.
 
 Set the audio file source and associate it with the decoder. Initialize the audio output pin and set the volume to 2.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_31.1_PlayMP3FromSD/Sketch_31.1_PlayMP3FromSD.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_PlayMP3FromSD/Sketch_23.1_PlayMP3FromSD.ino
     :linenos: 
     :language: c
     :lines: 66-79
@@ -154,7 +154,7 @@ Set the audio file source and associate it with the decoder. Initialize the audi
 
 Determine whether the mp3 player is finished. If it is playing, continue playing. If it is finished, print a message.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_31.1_PlayMP3FromSD/Sketch_31.1_PlayMP3FromSD.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_23.1_PlayMP3FromSD/Sketch_23.1_PlayMP3FromSD.ino
     :linenos: 
     :language: c
     :lines: 84-89
