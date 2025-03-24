@@ -43,7 +43,7 @@ C language
    C/14_Joystick.rst
    C/15_74HC595_&_LED_Bar_Graph.rst
    C/16_74HC595_&_7-Segment_Display.rst
-   C/17_Relay_&_Motor.rst
+   C/17_2_Relay_&_Motor.rst
    C/18_Servo.rst
    C/20_LCD1602.rst
    C/21_Ultrasonic_Ranging.rst
@@ -60,7 +60,7 @@ C language
    :caption: What's next?
    :glob:
 
-   C/What_s_next.rst
+   What_s_next.rst
 
 .. toctree::
    :maxdepth: 1

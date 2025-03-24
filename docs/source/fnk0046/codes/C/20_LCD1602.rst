@@ -112,7 +112,7 @@ The steps to add third-party Libraries are as follows: open arduino->Sketch->Inc
 .. image:: ../_static/imgs/20_LCD1602/Chapter20_09.png
     :align: center
 
-In the Freenove_Ultimate_Starter_Kit_for_ESP32/C/Libraries folder, select LiquidCrystal_I2c-1.2.zip and click open.
+In the Freenove_Super_Starter_Kit_for_ESP32/C/Libraries folder, select LiquidCrystal_I2c-1.2.zip and click open.
 
 .. image:: ../_static/imgs/20_LCD1602/Chapter20_10.png
     :align: center
