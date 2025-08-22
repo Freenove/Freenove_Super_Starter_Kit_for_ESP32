@@ -1,10 +1,10 @@
 ##############################################################################
-Chapter Ultrasonic Ranging
+Chapter 19 Ultrasonic Ranging
 ##############################################################################
 
 In this chapter, we learn a module which use ultrasonic to measure distance, HC SR04.
 
-Project Ultrasonic Ranging
+Project 19.1 Ultrasonic Ranging
 *********************************************
 
 In this project, we use ultrasonic ranging module to measure distance, and print out the data in the terminal.
@@ -117,7 +117,7 @@ Note that the voltage of ultrasonic module is 5V in the circuit.
 Sketch
 ======================================
 
-Sketch_Ultrasonic_Ranging
+Sketch_19.1_Ultrasonic_Ranging
 ---------------------------------------
 
 .. image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_06.png
@@ -169,7 +169,7 @@ About function **pulseIn()**:
     
     **timeout** (optional): the number of microseconds to wait for the pulse to start; default is one second. 
 
-Project Ultrasonic Ranging
+Project 19.2 Ultrasonic Ranging
 *******************************************
 
 Component List and Circuit
@@ -195,7 +195,7 @@ Refer to the following operations:
 .. image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_09.png
     :align: center
 
-Sketch_Ultrasonic_Ranging
+Sketch_19.2_Ultrasonic_Ranging
 --------------------------------------------
 
 .. image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_10.png

@@ -1,8 +1,8 @@
 ##############################################################################
-Chapter Relay & Motor
+Chapter 16 Relay & Motor
 ##############################################################################
 
-Project Control Motor with Potentiometer
+Project 16.1 Control Motor with Potentiometer
 *************************************************************
 
 Control the direction and speed of the motor with a potentiometer.
@@ -123,7 +123,7 @@ Move the program folder **"Freenove_Super_Starter_Kit_for_ESP32/Python/Python_Co
 
 Open "Thonny", click "This computer" **->** "D:" **->** "Micropython_Codes" **->** "16.1_Motor_And_Driver" and double click "Motor_And_Driver.py". 
 
-Motor_And_Driver
+16.1_Motor_And_Driver
 ----------------------------------------
 
 .. image:: ../_static/imgs/17_Motor_&_Driver/Chapter17_09.png

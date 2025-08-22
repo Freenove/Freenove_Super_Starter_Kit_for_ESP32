@@ -1,10 +1,10 @@
 ##############################################################################
-Chapter Relay & Motor
+Chapter 16 Relay & Motor
 ##############################################################################
 
 In this chapter, we will learn about DC motors and DC motor drivers and how to control the speed and direction of a DC motor.
 
-Project Control Motor with Potentiometer
+Project 16.1 Control Motor with Potentiometer
 *************************************************************
 
 Control the direction and speed of the motor with a potentiometer.
@@ -123,7 +123,7 @@ Use caution when connecting this circuit, because the DC motor is a high-power c
 Sketch
 =============================================
 
-Sketch_Control_Motor_by_L293D
+Sketch_16.1_Control_Motor_by_L293D
 --------------------------------------------
 
 .. image:: ../_static/imgs/17_Motor_&_Driver/Chapter17_06.png
