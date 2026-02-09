@@ -32,6 +32,7 @@ This product provides the following online documents.
 .. toctree::
    :maxdepth: 1
    :caption: FNK0046
- 
+
+   fnk0046/codes/Remove_the_chips.rst
    fnk0046/codes/C.rst
    fnk0046/codes/Python.rst
